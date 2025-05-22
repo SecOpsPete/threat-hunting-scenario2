@@ -47,7 +47,7 @@ DeviceNetworkEvents
 
 > Multiple devices were found failing connections.
 
-`#INSERT FailedLogons.png`
+![Failed Connection Attempts](images/FailedLogons.png)
 
 ---
 
@@ -63,7 +63,7 @@ DeviceNetworkEvents
 | order by Timestamp desc
 ```
 
-`#INSERT PortScanLog.png`
+![Port Scan Log](images/PortScanLog.png)
 
 ---
 
@@ -81,13 +81,13 @@ DeviceProcessEvents
 | project DeviceName, Timestamp, FileName, InitiatingProcessCommandLine
 ```
 
-`#INSERT SuspiciousProcesses.png`
+![Suspicious PowerShell Process](images/SuspiciousProcesses.png)
 
 ---
 
 ### 📄 Script Observed on Host
 
-`#INSERT PortScanScript.png`
+![Port Scan Script Code](images/PortScanScript.png)
 
 ---
 
