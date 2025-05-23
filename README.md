@@ -1,5 +1,12 @@
 # 🕵️‍♂️ Threat Hunting Lab – Internal PowerShell Port Scanning Activity
 
+## 🧰 Technologies Used
+
+- 🛡️ **Microsoft Defender for Endpoint** – Provided DeviceNetworkEvents and DeviceProcessEvents telemetry  
+- 🔎 **Kusto Query Language (KQL)** – Queried logs for failed connections and suspicious activity  
+- 🧠 **MITRE ATT&CK Framework** – Mapped observed techniques to known TTPs for threat classification  
+- 🖥️ **Windows 10 VM** – Simulated attacker environment for reconnaissance and discovery activity
+
 ## 1 – Preparation
 
 **Goal:** Set up the hunt by defining what you're looking for.
